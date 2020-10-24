@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeAdder", "TimeAdder.csproj", "{F141D04A-DAED-4BCC-8D9C-978DC2A1E51A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F141D04A-DAED-4BCC-8D9C-978DC2A1E51A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F141D04A-DAED-4BCC-8D9C-978DC2A1E51A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F141D04A-DAED-4BCC-8D9C-978DC2A1E51A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F141D04A-DAED-4BCC-8D9C-978DC2A1E51A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {69FFE2BB-1CEC-4521-8B75-894030FDC1AB}
+	EndGlobalSection
+EndGlobal
