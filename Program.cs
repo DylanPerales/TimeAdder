@@ -90,8 +90,21 @@ namespace TimeAdder
                 returnArray[0] = totalSeconds; //TODO: This will be the condensed time value
                 returnArray[1] = "Parsecs"; //TODO: This will be the condensed value label
 
+                foreach (object retObj in returnArray)
+                {
+                    Console.WriteLine(retObj.ToString());
+                }
+
                 return returnArray;
             }
+
+            Console.WriteLine("Calling timeAdder function");
+            Object[] newObject = timeAdder(5, "seconds", 2, "hours");
+            Console.WriteLine("timeAdder call complete...");
+
+            Console.WriteLine("Main function complete...");
+
+            Console.ReadKey(); // Pause before ending program
         }
     }
 }
